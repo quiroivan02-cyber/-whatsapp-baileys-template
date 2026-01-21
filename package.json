@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-baileys-template",
+  "version": "1.0.0",
+  "description": "Template base funcional para bots de WhatsApp con Baileys - Probado en producción",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "template",
+    "whatsapp-web",
+    "automation"
+  ],
+  "author": "Tu nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU_USUARIO/whatsapp-baileys-template"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
+    "express": "^4.18.3",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
